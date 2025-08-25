@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>เว็บไซต์รายงานผล PA | นายธเนศวร์ ประยูรชาญ (งบประมาณ 2568)</title>
+  <meta name="description" content="เว็บไซต์รายงานผลการปฏิบัติงานตามข้อตกลง (PA) ประจำปีงบประมาณ พ.ศ. 2568 ของนายธเนศวร์ ประยูรชาญ ครู โรงเรียนราชประชานุเคราะห์ 52 จังหวัดเลย" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root{--brand:#0ea5e9;--ink:#0f172a}
+    html{scroll-behavior:smooth}
+    body{font-family:'Noto Sans Thai', system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji","Segoe UI Emoji"}
+    .gs-card{border-radius:1.25rem; box-shadow:0 10px 20px -8px rgba(2,6,23,.12), 0 4px 10px -6px rgba(2,6,23,.1)}
+    .hero{background:linear-gradient(180deg, rgba(14,165,233,.10), rgba(14,165,233,0));}
+    .placeholder{border:2px dashed rgba(2,6,23,.15); border-radius:1rem}
+    .badge{background:rgba(14,165,233,.1); color:#0369a1}
+    details>summary::-webkit-details-marker{display:none}
+    summary{cursor:pointer}
+    .toc a{transition:all .15s ease}
+    .toc a.active{background:rgba(14,165,233,.12); color:#0369a1}
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+  <!-- Top Bar -->
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="flex items-center justify-between h-16">
+        <a href="#home" class="flex items-center gap-3">
+          <div class="w-9 h-9 rounded-xl bg-sky-500 grid place-items-center text-white font-bold">PA</div>
+          <div class="leading-tight">
+            <p class="font-semibold">รายงานผล PA</p>
+            <p class="text-xs text-slate-500">ปีงบประมาณ 2568</p>
+          </div>
+        </a>
+        <nav class="hidden md:flex gap-2 text-sm">
+          <a href="#home" class="px-3 py-2 rounded-lg hover:bg-slate-100">หน้าหลัก</a>
+          <a href="#profile" class="px-3 py-2 rounded-lg hover:bg-slate-100">ข้อมูลผู้จัดทำ</a>
+          <a href="#part1" class="px-3 py-2 rounded-lg hover:bg-slate-100">ส่วนที่ 1</a>
+          <a href="#challenge" class="px-3 py-2 rounded-lg hover:bg-slate-100">ประเด็นท้าทาย</a>
+          <a href="#appendix" class="px-3 py-2 rounded-lg hover:bg-slate-100">ภาคผนวก</a>
+          <a href="#contact" class="px-3 py-2 rounded-lg hover:bg-slate-100">ติดต่อ</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        <div>
+          <h1 class="text-3xl sm:text-4xl font-bold text-slate-900">เว็บไซต์รายงานผล <span class="text-sky-600">PA</span></h1>
+          <p class="mt-3 text-base sm:text-lg text-slate-700">สำหรับข้าราชการครูและบุคลากรทางการศึกษา ตำแหน่ง <b>ครู (ไม่มีวิทยฐานะ)</b> โรงเรียนราชประชานุเคราะห์ 52 จังหวัดเลย<br/>รอบการประเมิน: <b>1 ต.ค. 2567 – 30 ก.ย. 2568</b></p>
+          <div class="mt-5 flex flex-wrap gap-2">
+            <span class="badge px-3 py-1 rounded-full text-xs">วิชา: ออกแบบและเทคโนโลยี / วิทยาการคำนวณ / เทคโนโลยีสารสนเทศ</span>
+            <span class="badge px-3 py-1 rounded-full text-xs">กลุ่ม: วิทยาศาสตร์และเทคโนโลยี</span>
+            <span class="badge px-3 py-1 rounded-full text-xs">รูปแบบ: Google Sites Style</span>
+          </div>
+        </div>
+        <div class="gs-card bg-white p-4 md:p-6">
+          <div class="placeholder aspect-video grid place-items-center text-slate-400 text-sm">พื้นที่ใส่ภาพหน้าปก / ภาพจริงกิจกรรม</div>
+          <div class="grid grid-cols-3 gap-3 mt-4">
+            <div class="placeholder h-20"></div>
+            <div class="placeholder h-20"></div>
+            <div class="placeholder h-20"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Quick Stats -->
+      <div class="grid sm:grid-cols-3 gap-4 mt-10">
+        <div class="gs-card bg-white p-5">
+          <p class="text-xs text-slate-500">ภาระงานสัปดาห์ละ</p>
+          <p class="text-2xl font-bold">37 <span class="text-base font-medium text-slate-400">ชั่วโมง</span></p>
+          <p class="text-xs text-slate-500 mt-1">รวมงานสอน สนับสนุน พัฒนาคุณภาพ และงานนโยบาย</p>
+        </div>
+        <div class="gs-card bg-white p-5">
+          <p class="text-xs text-slate-500">ห้องเรียนรับผิดชอบ</p>
+          <p class="text-2xl font-bold">ม.1–ม.6</p>
+          <p class="text-xs text-slate-500 mt-1">รายวิชา IT, วิทยาการคำนวณ, ออกแบบและเทคโนโลยี, สวนพฤกษศาสตร์, ลูกเสือฯ ฯลฯ</p>
+        </div>
+        <div class="gs-card bg-white p-5">
+          <p class="text-xs text-slate-500">หน้าที่อื่น ๆ</p>
+          <p class="text-2xl font-bold">หัวหน้างาน</p>
+          <p class="text-xs text-slate-500 mt-1">ส่งเสริมพัฒนากิจกรรมสภานักเรียน / ระบบดูแลช่วยเหลือ</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Table of Contents / On-page Nav for long page -->
+  <aside class="border-y bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3 overflow-x-auto toc">
+      <div class="flex gap-2 text-sm whitespace-nowrap">
+        <a href="#profile" class="px-3 py-1.5 rounded-lg">ข้อมูลผู้จัดทำ</a>
+        <a href="#workload" class="px-3 py-1.5 rounded-lg">ภาระงาน</a>
+        <a href="#part1" class="px-3 py-1.5 rounded-lg">ส่วนที่ 1: มาตรฐานตำแหน่ง</a>
+        <a href="#challenge" class="px-3 py-1.5 rounded-lg">ส่วนที่ 2: ประเด็นท้าทาย</a>
+        <a href="#appendix" class="px-3 py-1.5 rounded-lg">ภาคผนวก</a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Profile -->
+  <section id="profile" class="max-w-7xl mx-auto px-4 sm:px-6 py-12">
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="gs-card bg-white p-6">
+        <div class="placeholder aspect-[4/5] mb-4 grid place-items-center text-slate-400 text-sm">ภาพจริง: รูปถ่ายผู้จัดทำ</div>
+        <h2 class="text-xl font-bold">นายธเนศวร์ ประยูรชาญ</h2>
+        <p class="text-sm text-slate-600">ตำแหน่ง ครู (ไม่มีวิทยฐานะ)<br>โรงเรียนราชประชานุเคราะห์ 52 จังหวัดเลย<br>สำนักบริหารงานการศึกษาพิเศษ</p>
+      </div>
+      <div class="md:col-span-2 gs-card bg-white p-6">
+        <h3 class="text-lg font-semibold mb-2">ข้อมูลหลัก</h3>
+        <ul class="list-disc pl-6 text-sm leading-7">
+          <li>รอบการประเมิน: 1 ตุลาคม 2567 – 30 กันยายน 2568</li>
+          <li>ประเภทห้องเรียน: วิชาสามัญ/พื้นฐาน</li>
+          <li>กลุ่มสาระ: วิทยาศาสตร์และเทคโนโลยี</li>
+        </ul>
+        <div class="mt-6 grid sm:grid-cols-2 gap-4">
+          <div class="p-4 rounded-xl bg-sky-50 border border-sky-100">
+            <p class="text-xs text-sky-700">จุดเด่นการสอน</p>
+            <p class="text-sm">Active Learning, PLC, สื่อ/นวัตกรรม, วัดประเมินหลายรูปแบบ</p>
+          </div>
+          <div class="p-4 rounded-xl bg-emerald-50 border border-emerald-100">
+            <p class="text-xs text-emerald-700">บทบาทสำคัญ</p>
+            <p class="text-sm">หัวหน้างานส่งเสริมกิจกรรมสภานักเรียน, ครูที่ปรึกษา ม.2/2</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Workload -->
+  <section id="workload" class="max-w-7xl mx-auto px-4 sm:px-6 pb-2">
+    <div class="gs-card bg-white p-6">
+      <h2 class="text-xl font-bold mb-2">ภาระงานตามรอบประเมิน</h2>
+      <p class="text-sm text-slate-600">สัปดาห์ละ 37 ชั่วโมง: งานสอน 18 ชั่วโมง + งานสนับสนุน 7 ชั่วโมง + พัฒนาคุณภาพ 5 ชั่วโมง + งานตอบสนองนโยบาย 7 ชั่วโมง</p>
+      <div class="mt-4 grid lg:grid-cols-4 md:grid-cols-2 gap-4">
+        <div class="p-4 rounded-xl border">
+          <p class="text-xs text-slate-500">ชั่วโมงสอน</p>
+          <p class="text-lg font-semibold">18 ชม./สัปดาห์</p>
+          <details class="mt-2">
+            <summary class="text-sm text-sky-700">ดูรายวิชา/ชั้นเรียน</summary>
+            <ul class="list-disc pl-5 text-sm mt-2 space-y-1">
+              <li>เทคโนโลยีสารสนเทศ (ม.2/1–2/4) วิชา/ห้องละ 2 ชม.</li>
+              <li>ออกแบบและเทคโนโลยี (ม.2/1–2/4) วิชา/ห้องละ 1 ชม.</li>
+              <li>สวนพฤกษศาสตร์ (ม.3/1–3/2) วิชา/ห้องละ 1 ชม.</li>
+              <li>ลูกเสือ-เนตรนารี (ม.2/2) 1 ชม. | เพื่อสังคม (ม.2/2) 1 ชม.</li>
+              <li>เครื่องประดับเงิน (ม.5) 2 ชม. | สอนเสริม (ม.6/1, ม.6/2) อย่างละ 1 ชม.</li>
+            </ul>
+          </details>
+        </div>
+        <div class="p-4 rounded-xl border">
+          <p class="text-xs text-slate-500">สนับสนุนการเรียนรู้</p>
+          <p class="text-lg font-semibold">7 ชม./สัปดาห์</p>
+          <p class="text-sm mt-1">PLC 3 ชม. + โฮมรูม 4 ชม.</p>
+        </div>
+        <div class="p-4 rounded-xl border">
+          <p class="text-xs text-slate-500">พัฒนาคุณภาพสถานศึกษา</p>
+          <p class="text-lg font-semibold">5 ชม./สัปดาห์</p>
+          <p class="text-sm mt-1">หัวหน้างานส่งเสริมกิจกรรมสภานักเรียน</p>
+        </div>
+        <div class="p-4 rounded-xl border">
+          <p class="text-xs text-slate-500">งานนโยบายและจุดเน้น</p>
+          <p class="text-lg font-semibold">7 ชม./สัปดาห์</p>
+          <p class="text-sm mt-1">โรงเรียนคุณธรรม, สวนพฤกษศาสตร์, กิจกรรมนักเรียน</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Part 1 -->
+  <section id="part1" class="max-w-7xl mx-auto px-4 sm:px-6 py-12">
+    <h2 class="text-2xl font-bold mb-6">ส่วนที่ 1: ข้อตกลงในการพัฒนางานตามมาตรฐานตำแหน่ง</h2>
+
+    <!-- Reusable block component -->
+    <div class="grid md:grid-cols-2 gap-6">
+      <!-- 1.1 สร้าง/พัฒนาหลักสูตร -->
+      <article class="gs-card bg-white p-6">
+        <header class="flex items-start justify-between gap-4">
+          <div>
+            <h3 class="text-lg font-semibold">1.1 สร้างและ/หรือพัฒนาหลักสูตร</h3>
+            <p class="text-sm text-slate-600">วิเคราะห์มาตรฐาน-ผลการเรียนรู้ จัดทำรายวิชา/หน่วยให้สอดคล้องบริบท</p>
+          </div>
+          <span class="badge px-2.5 py-1 rounded-full text-xs">หลักสูตร</span>
+        </header>
+        <div class="mt-4 grid gap-3 text-sm">
+          <div>
+            <p class="font-medium">งาน (Tasks)</p>
+            <ul class="list-disc pl-5 mt-1 space-y-1">
+              <li>วิเคราะห์หลักสูตร มาตรฐานการเรียนรู้ และผลการเรียนรู้ที่คาดหวัง</li>
+              <li>จัดทำหลักสูตรกลุ่มสาระฯ วิทยาศาสตร์และเทคโนโลยี และรายวิชาวิทยาการคำนวณ</li>
+            </ul>
+          </div>
+          <div>
+            <p class="font-medium">ผลลัพธ์ที่คาดหวัง</p>
+            <ul class="list-disc pl-5 mt-1 space-y-1">
+              <li>ผู้เรียนได้เรียนรู้ตรงตามหลักสูตรและพัฒนาสมรรถนะ</li>
+              <li>ส่งเสริมคุณลักษณะอันพึงประสงค์และสมรรถนะสำคัญ</li>
+            </ul>
+          </div>
+          <div>
+            <p class="font-medium">ตัวชี้วัด</p>
+            <ul class="list-disc pl-5 mt-1 space-y-1">
+              <li>≥ 70% ผลสัมฤทธิ์เป็นไปตามเป้าหมายสถานศึกษา</li>
+              <li>≥ 80% มีความรู้ตรงตามหลักสูตรอย่างมีประสิทธิภาพ</li>
+            </ul>
+          </div>
+          <div>
+            <p class="font-medium">หลักฐาน/ร่องรอย</p>
+            <p>หลักสูตรสถานศึกษา, คำอธิบายรายวิชา, ผลการเรียน (2/2567)</p>
+          </div>
+          <div class="placeholder aspect-video grid place-items-center text-slate-400 text-xs">ภาพจริง: หลักสูตร/เอกสารรายวิชา</div>
+        </div>
+      </article>
+
+      <!-- 1.2 ออกแบบการจัดการเรียนรู้ -->
+      <article class="gs-card bg-white p-6">
+        <header class="flex items-start justify-between gap-4">
+          <div>
+            <h3 class="text-lg font-semibold">1.2 การออกแบบการจัดการเรียนรู้</h3>
+            <p class="text-sm text-slate-600">ออกแบบหน่วย/แผน สอดคล้องหลักสูตรแกนกลาง (ฉบับปรับปรุง 2561)</p>
+          </div>
+          <span class="badge px-2.5 py-1 rounded-full text-xs">แผนการสอน</span>
+        </header>
+        <div class="mt-4 grid gap-3 text-sm">
+          <p class="font-medium">ตัวชี้วัด: ≥ 80% ผ่านเกณฑ์มาตรฐานรายวิชา และมีคุณลักษณะอันพึงประสงค์</p>
+          <div class="placeholder aspect-video grid place-items-center text-slate-400 text-xs">ภาพจริง: แผนการสอน/บันทึกผล</div>
+        </div>
+      </article>
+
+      <!-- 1.3 จัดกิจกรรมการเรียนรู้ -->
+      <article class="gs-card bg-white p-6">
+        <header class="flex items-start justify-between gap-4">
+          <div>
+            <h3 class="text-lg font-semibold">1.3 การจัดกิจกรรมการเรียนรู้</h3>
+            <p class="text-sm text-slate-600">Active Learning หลากหลาย เน้นมีส่วนร่วมและความแตกต่างระหว่างบุคคล</p>
+          </div>
+          <span class="badge px-2.5 py-1 rounded-full text-xs">กิจกรรม</span>
+        </header>
+        <ul class="list-disc pl-5 mt-4 text-sm space-y-1">
+          <li>≥ 80% ผลสัมฤทธิ์ คุณลักษณะ การอ่าน-คิดวิเคราะห์-เขียน อยู่เหนือเกณฑ์</li>
+          <li>≥ 80% ความพึงพอใจต่อบรรยากาศการเรียนรู้ ระดับมากขึ้นไป</li>
+        </ul>
+        <div class="mt-3 grid grid-cols-3 gap-3">
+          <div class="placeholder h-28"></div>
+          <div class="placeholder h-28"></div>
+          <div class="placeholder h-28"></div>
+        </div>
+      </article>
+
+      <!-- 1.4 สื่อ/นวัตกรรม -->
+      <article class="gs-card bg-white p-6">
+        <header class="flex items-start justify-between gap-4">
+          <div>
+            <h3 class="text-lg font-semibold">1.4 การสร้างและพัฒนาสื่อ/นวัตกรรม</h3>
+            <p class="text-sm text-slate-600">เกม/กิจกรรม/PowerPoint ใบงาน และแหล่งเรียนรู้</p>
+          </div>
+          <span class="badge px-2.5 py-1 rounded-full text-xs">สื่อการสอน</span>
+        </header>
+        <p class="mt-4 text-sm">ตัวชี้วัด: ≥ 80% พัฒนารอบด้าน (กาย ใจ สังคม สติปัญญา)</p>
+        <div class="placeholder aspect-video mt-3 grid place-items-center text-slate-400 text-xs">ภาพจริง: ตัวอย่างสื่อ/ผลงานนักเรียน</div>
+      </article>
+
+      <!-- 1.5 วัดและประเมินผล -->
+      <article class="gs-card bg-white p-6">
+        <header class="flex items-start justify-between gap-4">
+          <div>
+            <h3 class="text-lg font-semibold">1.5 การวัดและประเมินผลการเรียนรู้</h3>
+            <p class="text-sm text-slate-600">เครื่องมือหลากหลาย สอดคล้องตัวชี้วัด/มาตรฐาน</p>
+          </div>
+          <span class="badge px-2.5 py-1 rounded-full text-xs">ประเมินผล</span>
+        </header>
+        <p class="mt-4 text-sm">ตัวชี้วัด: ≥ 80% ผ่านเกณฑ์ทุกตัวชี้วัด</p>
+        <div class="grid grid-cols-2 gap-3 mt-3">
+          <div class="placeholder h-24"></div>
+          <div class="placeholder h-24"></div>
+        </div>
+      </article>
+
+      <!-- 1.6 วิเคราะห์-วิจัยในชั้นเรียน -->
+      <article class="gs-card bg-white p-6">
+        <header class="flex items-start justify-between gap-4">
+          <div>
+            <h3 class="text-lg font-semibold">1.6 ศึกษา วิเคราะห์ สังเคราะห์ เพื่อแก้ปัญหา</h3>
+            <p class="text-sm text-slate-600">วิจัยในชั้นเรียนและวิเคราะห์รายบุคคล</p>
+          </div>
+          <span class="badge px-2.5 py-1 rounded-full text-xs">RBL/Research</span>
+        </header>
+        <p class="mt-4 text-sm">ตัวชี้วัด: ≥ 80% ในกลุ่มไม่ผ่านเกณฑ์ ได้รับการซ่อมเสริมจนผ่าน</p>
+        <div class="placeholder aspect-[3/1] mt-3 grid place-items-center text-slate-400 text-xs">ภาพจริง: รายงานวิจัย/PLC</div>
+      </article>
+
+      <!-- 1.7 บรรยากาศการเรียนรู้ -->
+      <article class="gs-card bg-white p-6">
+        <header class="flex items-start justify-between gap-4">
+          <div>
+            <h3 class="text-lg font-semibold">1.7 จัดบรรยากาศที่ส่งเสริมและพัฒนาผู้เรียน</h3>
+            <p class="text-sm text-slate-600">เทคนิคกลุ่ม เพื่อนช่วยเพื่อน ความรับผิดชอบ ซื่อสัตย์</p>
+          </div>
+          <span class="badge px-2.5 py-1 rounded-full text-xs">ชั้นเรียน</span>
+        </header>
+        <p class="mt-4 text-sm">ตัวชี้วัด: ≥ 85% สนใจ กระตือรือร้น และมีความสุขในการเรียน</p>
+        <div class="grid grid-cols-3 gap-3 mt-3">
+          <div class="placeholder h-24"></div>
+          <div class="placeholder h-24"></div>
+          <div class="placeholder h-24"></div>
+        </div>
+      </article>
+
+      <!-- 1.8 อบรมคุณลักษณะผู้เรียน -->
+      <article class="gs-card bg-white p-6">
+        <header class="flex items-start justify-between gap-4">
+          <div>
+            <h3 class="text-lg font-semibold">1.8 อบรมและพัฒนาคุณลักษณะที่ดีของผู้เรียน</h3>
+            <p class="text-sm text-slate-600">โฮมรูมเช้า บ่มนิสัย คุณธรรม จริยธรรม ค่านิยมความเป็นไทย</p>
+          </div>
+          <span class="badge px-2.5 py-1 rounded-full text-xs">โฮมรูม</span>
+        </header>
+        <p class="mt-4 text-sm">ตัวชี้วัด: ≥ 85% มีคุณลักษณะที่พึงประสงค์ตามที่สถานศึกษากำหนด</p>
+        <div class="placeholder aspect-video mt-3 grid place-items-center text-slate-400 text-xs">ภาพจริง: บันทึกโฮมรูม/กิจกรรมคุณธรรม</div>
+      </article>
+    </div>
+
+    <!-- ด้านที่ 2: ส่งเสริม/สนับสนุน -->
+    <div class="grid md:grid-cols-2 gap-6 mt-6">
+      <article class="gs-card bg-white p-6">
+        <h3 class="text-lg font-semibold">2.1 จัดทำข้อมูลสารสนเทศผู้เรียนและรายวิชา</h3>
+        <p class="text-sm text-slate-600">จัดเก็บ ปรับปรุง ใช้งานได้จริง (ปพ.5, ปพ.6, บันทึกคะแนน ฯลฯ) — ตัวชี้วัด ≥ 90% เอกสารครบ</p>
+        <div class="placeholder aspect-video mt-3 grid place-items-center text-slate-400 text-xs">ภาพจริง: แฟ้มข้อมูล/แดชบอร์ด</div>
+      </article>
+      <article class="gs-card bg-white p-6">
+        <h3 class="text-lg font-semibold">2.2 ระบบดูแลช่วยเหลือผู้เรียน</h3>
+        <p class="text-sm text-slate-600">เยี่ยมบ้าน ใช้ข้อมูลรายบุคคล ประสานผู้ปกครอง — ตัวชี้วัด ≥ 80% ได้รับการช่วยเหลือ</p>
+        <div class="placeholder aspect-video mt-3 grid place-items-center text-slate-400 text-xs">ภาพจริง: รายงานเยี่ยมบ้าน/กลุ่มไลน์ห้อง</div>
+      </article>
+      <article class="gs-card bg-white p-6">
+        <h3 class="text-lg font-semibold">2.3 ปฏิบัติงานวิชาการและงานอื่น ๆ</h3>
+        <p class="text-sm text-slate-600">สอน ขับเคลื่อนกลุ่มสาระฯ ครูที่ปรึกษา งาน/โครงการ SAR ฯลฯ — ตัวชี้วัด ≥ 80% นักเรียนมีส่วนร่วม</p>
+        <div class="placeholder aspect-video mt-3 grid place-items-center text-slate-400 text-xs">ภาพจริง: คำสั่ง/รายงานโครงการ</div>
+      </article>
+      <article class="gs-card bg-white p-6">
+        <h3 class="text-lg font-semibold">2.4 ประสานความร่วมมือกับผู้ปกครองและภาคี</h3>
+        <p class="text-sm text-slate-600">สื่อสารหลากช่องทาง สนับสนุนการเรียนรู้/ทุน — ตัวชี้วัด ≥ 80% ได้รับการดูแล/สนับสนุน</p>
+        <div class="placeholder aspect-video mt-3 grid place-items-center text-slate-400 text-xs">ภาพจริง: ประชุมผู้ปกครอง/เครือข่าย</div>
+      </article>
+    </div>
+
+    <!-- ด้านที่ 3: พัฒนาตนเองและวิชาชีพ -->
+    <div class="grid md:grid-cols-3 gap-6 mt-6">
+      <article class="gs-card bg-white p-6">
+        <h3 class="text-lg font-semibold">3.1 พัฒนาตนอย่างต่อเนื่อง</h3>
+        <p class="text-sm text-slate-600">เข้าอบรม/ประชุม รายงานผล ใช้เทคโนโลยีดิจิทัลเพื่อการสอน</p>
+        <p class="text-sm mt-1">ตัวชี้วัด: ≥ 80% จัดกิจกรรมหลากหลาย เหมาะสมกับผู้เรียน</p>
+        <div class="placeholder h-24 mt-3"></div>
+      </article>
+      <article class="gs-card bg-white p-6">
+        <h3 class="text-lg font-semibold">3.2 มีส่วนร่วมแลกเปลี่ยนเรียนรู้ (PLC)</h3>
+        <p class="text-sm text-slate-600">แลกเปลี่ยนภายใน/นอก ร.ร. นำไปแก้ปัญหา/พัฒนาสื่อ</p>
+        <div class="placeholder h-24 mt-3"></div>
+      </article>
+      <article class="gs-card bg-white p-6">
+        <h3 class="text-lg font-semibold">3.3 นำผลการพัฒนามาใช้จริง</h3>
+        <p class="text-sm text-slate-600">เพิ่มกิจกรรม/รูปแบบการสอนให้มีความหลากหลาย ผลสัมฤทธิ์ดีขึ้น</p>
+        <div class="placeholder h-24 mt-3"></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Challenge (Part 2) -->
+  <section id="challenge" class="max-w-7xl mx-auto px-4 sm:px-6 py-12">
+    <div class="gs-card bg-white p-6">
+      <h2 class="text-2xl font-bold">ส่วนที่ 2: ประเด็นท้าทายในการพัฒนาผลลัพธ์ผู้เรียน</h2>
+      <p class="mt-2 text-sm text-slate-600">หัวข้อ: <b>พัฒนาผลสัมฤทธิ์และทักษะคิดเชิงคำนวณของนักเรียน ม.2</b> ด้วยกิจกรรมกลุ่มย่อย: วิเคราะห์ปัญหา, แยกย่อย, ค้นหารูปแบบ (Pattern), และออกแบบขั้นตอนวิธี (Algorithm)</p>
+      <div class="mt-6 grid md:grid-cols-3 gap-6">
+        <div>
+          <h3 class="font-semibold">1) สภาพปัญหา</h3>
+          <p class="text-sm text-slate-700 mt-1">ผู้เรียนยังขาดทักษะการวิเคราะห์/แยกย่อย มองรูปแบบไม่ชัด และวางลำดับวิธีแก้ปัญหาได้จำกัด ส่งผลต่อการประยุกต์ใช้จริง</p>
+        </div>
+        <div>
+          <h3 class="font-semibold">2) วิธีดำเนินการ</h3>
+          <ul class="list-disc pl-5 text-sm mt-1 space-y-1">
+            <li>ศึกษาปัญหา วิเคราะห์หลักสูตร และออกแบบแผน/ชุดกิจกรรม</li>
+            <li>จัดทำแบบฝึก แบบทดสอบก่อน-หลัง และวิธีประเมิน</li>
+            <li>จัดกิจกรรม ทดลองใช้ ประเมิน และรายงานผล</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-semibold">3) ผลลัพธ์ที่คาดหวัง</h3>
+          <ul class="list-disc pl-5 text-sm mt-1 space-y-1">
+            <li><b>เชิงปริมาณ:</b> ≥ 80% ของนักเรียน ม.2 (รวม ~81 คน) มีผลสัมฤทธิ์สูงขึ้น</li>
+            <li><b>เชิงคุณภาพ:</b> ประยุกต์แนวคิดเชิงคำนวณในชีวิตประจำวัน และมีความพึงพอใจต่อการเรียนรู้</li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-6 grid md:grid-cols-3 gap-4">
+        <div class="placeholder h-28"></div>
+        <div class="placeholder h-28"></div>
+        <div class="placeholder h-28"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Appendix -->
+  <section id="appendix" class="max-w-7xl mx-auto px-4 sm:px-6 py-12">
+    <div class="grid md:grid-cols-2 gap-6">
+      <article class="gs-card bg-white p-6">
+        <h3 class="text-lg font-semibold">ภาคผนวก ก: ตารางสอน 2/2567 – 1/2568</h3>
+        <div class="mt-3 overflow-x-auto">
+          <table class="min-w-full text-sm">
+            <thead>
+              <tr class="text-left text-slate-500">
+                <th class="py-2 pr-4">ระดับ/ห้อง</th>
+                <th class="py-2 pr-4">รายวิชา</th>
+                <th class="py-2 pr-4">ชั่วโมง/สัปดาห์</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y">
+              <tr><td class="py-2 pr-4">ม.2/1–2/4</td><td class="py-2 pr-4">เทคโนโลยีสารสนเทศ</td><td class="py-2 pr-4">2</td></tr>
+              <tr><td class="py-2 pr-4">ม.2/1–2/4</td><td class="py-2 pr-4">ออกแบบและเทคโนโลยี</td><td class="py-2 pr-4">1</td></tr>
+              <tr><td class="py-2 pr-4">ม.3/1–3/2</td><td class="py-2 pr-4">สวนพฤกษศาสตร์</td><td class="py-2 pr-4">1</td></tr>
+              <tr><td class="py-2 pr-4">ม.2/2</td><td class="py-2 pr-4">ลูกเสือ-เนตรนารี / เพื่อสังคม</td><td class="py-2 pr-4">1 / 1</td></tr>
+              <tr><td class="py-2 pr-4">ม.5</td><td class="py-2 pr-4">เครื่องประดับเงิน</td><td class="py-2 pr-4">2</td></tr>
+              <tr><td class="py-2 pr-4">ม.6/1, ม.6/2</td><td class="py-2 pr-4">สอนเสริม</td><td class="py-2 pr-4">1 + 1</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </article>
+      <article class="gs-card bg-white p-6">
+        <h3 class="text-lg font-semibold">เอกสารร่องรอย (แนบลิงก์/ไฟล์)</h3>
+        <ul class="list-disc pl-5 text-sm mt-2 space-y-1">
+          <li>หลักสูตรสถานศึกษา / คำอธิบายรายวิชา</li>
+          <li>แผนการจัดการเรียนรู้ / แบบทดสอบ / แบบประเมิน</li>
+          <li>ผลการเรียน (2/2567) / รายงานวิจัยในชั้นเรียน</li>
+          <li>รายงานเยี่ยมบ้าน / SAR / คำสั่งมอบหมายงาน</li>
+        </ul>
+        <div class="placeholder aspect-video mt-3 grid place-items-center text-slate-400 text-xs">พื้นที่แนบ QR/ลิงก์ Google Drive</div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Contact / Signatures -->
+  <section id="contact" class="max-w-7xl mx-auto px-4 sm:px-6 pb-16">
+    <div class="gs-card bg-white p-6">
+      <h3 class="text-lg font-semibold">การรับรองและการติดต่อ</h3>
+      <div class="grid md:grid-cols-3 gap-6 mt-4">
+        <div>
+          <div class="placeholder h-28"></div>
+          <p class="text-sm mt-2"><b>ผู้รับรอง:</b> นางพัทธยา ชนะพันธ์<br>ผู้อำนวยการโรงเรียนราชประชานุเคราะห์ 52 จังหวัดเลย</p>
+        </div>
+        <div>
+          <div class="placeholder h-28"></div>
+          <p class="text-sm mt-2"><b>ผู้รับการประเมิน:</b> นายธเนศวร์ ประยูรชาญ<br>ตำแหน่ง ครู (ไม่มีวิทยฐานะ)</p>
+        </div>
+        <div>
+          <div class="placeholder h-28"></div>
+          <p class="text-sm mt-2"><b>ติดต่อ:</b> เพิ่มอีเมล/โทรศัพท์/QR ไลน์</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="border-t bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-6 text-xs text-slate-500">
+      จัดทำในรูปแบบเว็บไซต์สไตล์ Google Sites | อัปเดตล่าสุด: <span id="updated">—</span>
+    </div>
+  </footer>
+
+  <script>
+    // highlight current section in TOC
+    const sections = Array.from(document.querySelectorAll('section[id]'))
+    const tocLinks = Array.from(document.querySelectorAll('.toc a'))
+    const map = Object.fromEntries(tocLinks.map(a=>[a.getAttribute('href').slice(1), a]))
+    const io = new IntersectionObserver(entries=>{
+      entries.forEach(e=>{
+        if(e.isIntersecting){
+          const id = e.target.id
+          tocLinks.forEach(a=>a.classList.remove('active'))
+          map[id]?.classList.add('active')
+        }
+      })
+    },{rootMargin:'-40% 0px -55% 0px', threshold:0})
+    sections.forEach(s=>io.observe(s))
+
+    // updated time stamp
+    document.getElementById('updated').textContent = new Date().toLocaleDateString('th-TH', {year:'numeric', month:'long', day:'numeric'})
+  </script>
+</body>
+</html>
